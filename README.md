@@ -28,4 +28,4 @@ The authors are sorted alphabetically.
 -use the following two urls to see it in action
 
 ## Contact
-smithsuzanne08@gmail.com
+allensuzanne08@gmail.com
