@@ -1,0 +1,13 @@
+<div class="container">
+    <h3>Edit this author:</h3>
+    <form (submit)="editAuthor()">
+        <div class="form-group">
+            <p *ngIf="FlashMessage">{{FlashMessage}}</p>
+            <label>Name:</label>
+            <input type="text" class="form-control " name="editedAuthor.name" [(ngModel)]="editedAuthor.name" />
+        </div>
+        <a [routerLink]="['/read']"><button class="btn btn-outline-success">Cancel</button></a>
+        <input type="submit" value="Submit" class="btn btn-outline-primary" />
+    </form>
+    <a [routerLink]="['/read']">Home</a>
+</div>
